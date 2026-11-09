@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+*.wwebjs_auth
+*.wwebjs_config
+*.wwebjs_data
+*.wwebjs_session
+*.log
+*.wwebjs_cache
+
