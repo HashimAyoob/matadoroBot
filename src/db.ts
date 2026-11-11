@@ -8,7 +8,7 @@ export const initDb = () => {
     // Enable foreign keys
     db.pragma('foreign_keys = ON');
 
-    // Create Users table
+    // Users table
     db.exec(`
         CREATE TABLE IF NOT EXISTS users (
             phone_number TEXT PRIMARY KEY,
